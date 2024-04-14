@@ -1,0 +1,25 @@
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #808080;
+    position: relative;
+    overflow: hidden;
+
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    width: 360px;
+    height: 200px;
+    
+    object-fit: cover;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+
+}

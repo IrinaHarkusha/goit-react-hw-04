@@ -1,0 +1,13 @@
+.image {
+    height: 500px;
+    object-fit: scale-down;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+}
+

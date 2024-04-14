@@ -1,0 +1,15 @@
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_loadmore{
+    padding: 10px 40px;
+}
+.btn_loadmore:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid grey;
+    
+}
